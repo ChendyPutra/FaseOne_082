@@ -39,7 +39,7 @@ class HalamanDua extends StatelessWidget {
                       Navigator.pushAndRemoveUntil(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => HalamanTiga(),
+                            builder: (context) => HalamanTiga(nama:nama,nohp: nohp,makan:  makan.text,minum: minum.text,dessert: dessert.text,),
                           ),
                           (route) => false);
                       ScaffoldMessenger.of(context).showSnackBar(
