@@ -28,11 +28,11 @@ class HalamanTiga extends StatelessWidget {
           child: Column(
             children: [
               HeaderWidget(),
-              Text('Nama  : $nama'),
-              Text('Nomor Telepon : $nohp'),
-              Text('Makanan  : $makan'),
-              Text('Minuman  : $minum'),
-              Text('Dessert  : $dessert'),
+              Text('Nama  : $nama',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+              Text('Nomor Telepon : $nohp',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+              Text('Makanan  : $makan',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+              Text('Minuman  : $minum',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+              Text('Dessert  : $dessert',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
               footerend(onPressedEnd: () {
                 Navigator.pushAndRemoveUntil(
                     context,

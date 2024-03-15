@@ -25,8 +25,9 @@ class HalamanDua extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             HeaderWidget(),
-            Text('Nama  : $nama'),
-            Text('Nomor Telepon : $nohp'),
+            Text('Nama  : $nama',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+            Text('Nomor Telepon : $nohp',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+            SizedBox(height: 15),
             formfood(
               formKey: formKey,
               etmakan: makan,
