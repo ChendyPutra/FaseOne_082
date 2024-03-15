@@ -31,6 +31,7 @@ class _footerfoodState extends State<formfood> {
               labelText: 'Makanan',
               hintText: 'Masukan Makanan',
               prefixIcon: Icon(Icons.food_bank),
+              border: OutlineInputBorder()
             ),
             validator: (value) {
               if (value!.isEmpty) {
@@ -50,6 +51,7 @@ class _footerfoodState extends State<formfood> {
               labelText: 'Minuman',
               hintText: 'Masukan Minuman',
               prefixIcon: Icon(Icons.local_drink),
+              border: OutlineInputBorder()
             ),
             validator: (value) {
               if (value!.isEmpty) {
@@ -69,6 +71,7 @@ class _footerfoodState extends State<formfood> {
               labelText: 'Dessert',
               hintText: 'Masukan Dessert',
               prefixIcon: Icon(Icons.food_bank),
+              border: OutlineInputBorder()
             ),
             validator: (value) {
               if (value!.isEmpty) {

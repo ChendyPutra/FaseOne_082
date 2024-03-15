@@ -36,6 +36,7 @@ class _FormWidgetState extends State<FormWidget> {
               labelText: 'Nama',
               hintText: 'Masukan Nama',
               prefixIcon: Icon(Icons.person),
+              border: OutlineInputBorder()
             ),
             validator: (value) {
               if (value!.isEmpty) {
@@ -55,6 +56,7 @@ class _FormWidgetState extends State<FormWidget> {
               labelText: 'Nomor Telepon',
               hintText: 'Masukan Nomor Telepon',
               prefixIcon: Icon(Icons.phone),
+              border: OutlineInputBorder()
             ),
             validator: (value) {
               if (value!.isEmpty) {
@@ -76,6 +78,7 @@ class _FormWidgetState extends State<FormWidget> {
               labelText: 'Alamat',
               hintText: 'Masukan Alamat',
               prefixIcon: Icon(Icons.location_on),
+              border: OutlineInputBorder()
             ),
             validator: (value) {
               if (value!.isEmpty) {
